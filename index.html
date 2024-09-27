@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Signature Generator</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Email Signature Generator</h1>
+        <form id="signature-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ext">Extension</label>
+                <input type="text" id="ext" name="ext">
+            </div>
+
+            <button type="submit">Generate Signature</button>
+        </form>
+
+        <h2>Your Email Signature</h2>
+        <div id="signature-output"></div>
+
+        <!-- Copy Signature Button -->
+        <button id="copy-signature-button" style="display: none;">Copy Signature</button>
+
+        <h2>HTML Code</h2>
+        <textarea id="signature-html" rows="15" readonly></textarea>
+
+        <!-- Copy HTML Code Button -->
+        <button id="copy-html-button" style="display: none;">Copy HTML Code</button>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
