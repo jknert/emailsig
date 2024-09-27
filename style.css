@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    background-color: #f2f2f7;
+    font-family: Arial, sans-serif;
+    color: #1d1d1f;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #007aff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #6e6e73;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #d2d2d7;
+    border-radius: 8px;
+    background-color: #f2f2f7;
+    color: #1d1d1f;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007aff;
+    background-color: #ffffff;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #007aff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #005ecb;
+}
+
+/* Copy Buttons */
+button#copy-signature-button,
+button#copy-html-button {
+    margin-top: 10px;
+    background-color: #34c759;
+}
+
+button#copy-signature-button:hover,
+button#copy-html-button:hover {
+    background-color: #30b158;
+}
+
+#signature-output {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f2f2f7;
+    border-radius: 10px;
+    border: 1px solid #d2d2d7;
+    overflow-x: auto;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    font-family: monospace;
+    color: #1d1d1f;
+    background-color: #f2f2f7;
+    border: 1px solid #d2d2d7;
+    border-radius: 10px;
+    resize: vertical;
+    margin-top: 20px;
+}
