@@ -26,7 +26,7 @@ document.getElementById('signature-form').addEventListener('submit', function(e)
         </td>
         <td style="width: 25px; padding-top: 15px; border-top: 1px solid #2c7da5;"></td>
         <td valign="top" style="width: 425px; padding-top: 15px; font-family: Arial, sans-serif; line-height:15px; padding-bottom:0px; border-top: 1px solid #2c7da5; word-wrap: break-word;">
-          <span style="font-size: 12pt; color: #2c7da5;"><strong>${name}</strong><br></span>
+          <span style="font-size: 13pt; color: #2c7da5;"><strong>${name}</strong><br></span>
           <span style="font-size: 9pt; color: #000000;">${title}<br><br></span>
           <!-- Phone number and extension formatted -->
           <span style="font-size: 9pt; color: #000000; line-height: 13pt;">
