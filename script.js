@@ -30,7 +30,7 @@ document.getElementById('signature-form').addEventListener('submit', function(e)
           <span style="font-size: 9pt; color: #000000;">${title}<br><br></span>
           <!-- Phone number and extension formatted -->
           <span style="font-size: 9pt; color: #000000; line-height: 13pt;">
-            ${phone}${ext ? ' | (' + ext + ')' : ''}<br>
+            ${phone}${ext ? ' Ext. ' + ext : ''}<br>
           </span>
           <!-- Updated tagline with "VenHub" capitalization -->
           <span style="font-size: 9pt; color: #000000; line-height: 13pt;">
