@@ -19,7 +19,7 @@ document.getElementById('signature-form').addEventListener('submit', function(e)
   <table cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, sans-serif; color: #000000; max-width:600px; width:600px; background: transparent !important;">
     <tbody>
       <tr>
-        <td style="width: 150px; font-size: 10pt; padding-top: 15px; color: #000000; line-height:12pt; padding-bottom:10px; border-top: 1px solid #2c7da5;" valign="top">
+        <td style="width: 150px; font-size: 10pt; padding-top: 8px; color: #000000; line-height:12pt; padding-bottom:10px; border-top: 1px solid #2c7da5;" valign="top">
           <p style="padding-right: 2px;">
             <img border="0" width="150" height="150" style="max-width:150px; height:auto; border:0;" src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png"><br>
           </p>
