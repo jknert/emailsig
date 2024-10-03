@@ -18,16 +18,21 @@ document.getElementById('signature-form').addEventListener('submit', function(e)
 <BODY style="font-size: 10pt; font-family: Tahoma, sans-serif;">
   <table cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, sans-serif; color: #000000; max-width:600px; width:600px; background: transparent !important;">
     <tbody>
+      <!-- Added padding before the blue line -->
       <tr>
-        <td style="width: 150px; font-size: 10pt; padding-top: 8px; color: #000000; line-height:12pt; padding-bottom:10px; border-top: 1px solid #2c7da5;" valign="top">
+        <td colspan="3" style="padding-top: 45px;"></td>
+      </tr>
+      <tr>
+        <td style="width: 150px; font-size: 10pt; color: #000000; line-height:12pt; padding-top:6px; padding-bottom:10px; border-top: 1px solid #2c7da5;" valign="top">
           <p style="padding-right: 2px;">
-            <img border="0" width="150" height="150" style="max-width:150px; height:auto; border:0;" src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png"><br>
+            <img border="0" width="113" height="113" style="max-width:113px; height:auto; border:0;" src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png"><br>
           </p>
         </td>
-        <td style="width: 25px; padding-top: 15px; border-top: 1px solid #2c7da5;"></td>
-        <td valign="top" style="width: 425px; padding-top: 15px; font-family: Arial, sans-serif; line-height:15px; padding-bottom:0px; border-top: 1px solid #2c7da5; word-wrap: break-word;">
-          <span style="font-size: 13pt; color: #2c7da5;"><strong>${name}</strong><br></span>
-          <span style="font-size: 9pt; color: #000000;">${title}<br><br></span>
+        <td style="width: 25px; border-top: 1px solid #2c7da5;"></td>
+        <td valign="top" style="width: 425px; font-family: Arial, sans-serif; line-height:15px; padding-top:6px; padding-bottom:0px; border-top: 1px solid #2c7da5; word-wrap: break-word;">
+          <span style="font-size: 12pt; color: #2c7da5;"><strong>${name}</strong></span><br style="line-height:2px;">
+          <!-- Added 2px padding under the name for the title -->
+          <span style="font-size: 9pt; color: #000000; padding-bottom:2px;">${title}<br><br></span>
           <!-- Phone number and extension formatted -->
           <span style="font-size: 9pt; color: #000000; line-height: 13pt;">
             ${phone}${ext ? ' | Ext. ' + ext : ''}<br>
@@ -69,10 +74,10 @@ document.getElementById('signature-form').addEventListener('submit', function(e)
         </td>
         <td style="width: 20px;"></td>
         <td valign="bottom" style="font-family: Arial, sans-serif; line-height:15px; padding-bottom:0px;">
-          <!-- Moved buttons up and added "Learn More" button -->
+          <!-- Moved buttons up and resized them -->
           <br>
-          <a href="http://www.venhub.com" style="display:inline-block; padding:10px 20px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:5px; margin-right:10px;">Learn More</a>
-          <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:10px 20px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:5px;">Pre-Order</a>
+          <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px; margin-right:10px;">Learn More</a>
+          <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px;">Pre-Order</a>
         </td>
       </tr>
     </tbody>
