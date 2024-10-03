@@ -16,23 +16,23 @@ document.getElementById('signature-form').addEventListener('submit', function(e)
   <META content="text/html; charset=utf-8" http-equiv=Content-Type>
 </HEAD>
 <BODY style="font-size: 10pt; font-family: Tahoma, sans-serif;">
-  <table cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, sans-serif; color: #000000; max-width:600px; width:600px;">
+  <table cellspacing="0" cellpadding="0" border="0" style="font-family: Arial, sans-serif; color: #000000; max-width:600px; width:600px; background: transparent !important;">
     <tbody>
       <!-- Added padding before the blue line -->
       <tr>
-        <td colspan="3" style="padding-top: 60px;"></td>
+        <td colspan="3" style="padding-top: 45px;"></td>
       </tr>
       <tr>
-        <td style="width: 150px; font-size: 10pt; color: #000000; line-height:12pt; padding-top:6px; padding-bottom:10px; border-top: 1px solid #2c7da5;" valign="top">
+        <td style="width: 150px; font-size: 10pt; color: #000000; line-height:12pt; padding-top:7px; padding-bottom:10px; border-top: 1px solid #2c7da5;" valign="top">
           <p style="padding-right: 2px;">
             <img border="0" width="113" height="113" style="max-width:113px; height:auto; border:0;" src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png"><br>
           </p>
         </td>
         <td style="width: 25px; border-top: 1px solid #2c7da5;"></td>
-        <td valign="top" style="width: 425px; font-family: Arial, sans-serif; line-height:15px; padding-top:6px; padding-bottom:0px; border-top: 1px solid #2c7da5; word-wrap: break-word;">
+        <td valign="top" style="width: 425px; font-family: Arial, sans-serif; line-height:15px; padding-top:13px; padding-bottom:0px; border-top: 1px solid #2c7da5; word-wrap: break-word;">
           <span style="font-size: 12pt; color: #2c7da5;"><strong>${name}</strong></span><br style="line-height:2px;">
           <!-- Added 2px padding under the name for the title -->
-          <span style="font-size: 9pt; color: #000000;">${title}<br><br></span>
+          <span style="font-size: 9pt; color: #000000; padding-bottom:2px;">${title}<br><br></span>
           <!-- Phone number and extension formatted -->
           <span style="font-size: 9pt; color: #000000; line-height: 13pt;">
             ${phone}${ext ? ' | Ext. ' + ext : ''}<br>
@@ -45,7 +45,7 @@ document.getElementById('signature-form').addEventListener('submit', function(e)
       </tr>
       <tr>
         <td>
-          <table cellspacing="0" cellpadding="0" border="0">
+          <table cellspacing="0" cellpadding="0" border="0" style="background: transparent !important;">
             <tbody>
               <tr>
                 <td style="padding-right: 5px; height: 22px;">
