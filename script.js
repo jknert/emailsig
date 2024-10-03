@@ -23,7 +23,7 @@ document.getElementById('signature-form').addEventListener('submit', function(e)
         <td colspan="3" style="padding-top: 45px;"></td>
       </tr>
       <tr>
-        <td style="width: 150px; font-size: 10pt; color: #000000; line-height:12pt; padding-top:7px; padding-bottom:10px; border-top: 1px solid #2c7da5;" valign="top">
+        <td style="width: 150px; font-size: 10pt; color: #000000; line-height:12pt; padding-top:13px; padding-bottom:10px; border-top: 1px solid #2c7da5;" valign="top">
           <p style="padding-right: 2px;">
             <img border="0" width="113" height="113" style="max-width:113px; height:auto; border:0;" src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png"><br>
           </p>
