@@ -23,55 +23,71 @@ document.getElementById('signature-form').addEventListener('submit', function (e
     will be an acceptance by you.`;
 
     // Email signature HTML template with placeholders
-    let template = `
+let template = `
 <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; color: #000000; width:600px;">
     <tr>
         <td colspan="3" style="padding-top: 60px;"></td>
     </tr>
     <tr>
+        <!-- Logo Column -->
         <td valign="top" style="width: 150px; padding-top:6px; padding-bottom:10px; border-top: 1px solid #2c7da5;">
             <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png" alt="VenHub Logo" style="border:0; max-width:113px; height:auto;">
         </td>
+        <!-- Spacer Column -->
         <td style="width: 25px; border-top: 1px solid #2c7da5;"></td>
+        <!-- Content Column -->
         <td valign="top" style="border-top: 1px solid #2c7da5;">
             <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
-            <tr>
+                <!-- Spacer Above Name -->
+                <tr>
                     <td style="height: 7px;"></td>
                 </tr>
+                <!-- Name -->
                 <tr>
                     <td style="font-size: 12pt; color: #2c7da5; font-weight: bold;">${name}</td>
                 </tr>
+                <!-- Spacer Below Name -->
                 <tr>
                     <td style="height: 2px;"></td>
                 </tr>
+                <!-- Title -->
                 <tr>
                     <td style="font-size: 9pt; color: #000000;">${title}</td>
                 </tr>
+                <!-- Spacer -->
                 <tr>
                     <td style="height: 10px;"></td>
                 </tr>
+                <!-- Phone and Extension -->
                 <tr>
                     <td style="font-size: 9pt; color: #000000;">${phone}${ext ? ' | Ext. ' + ext : ''}</td>
                 </tr>
+                <!-- Spacer -->
                 <tr>
                     <td style="height: 10px;"></td>
                 </tr>
+                <!-- Tagline -->
                 <tr>
                     <td style="font-size: 9pt; color: #000000; line-height: 13pt;">
                         VenHub is a Fully Robotic, Autonomous, and AI-Powered Smart Store. Customer First | Innovate | Work Hard | Make History | Lead by Example
                     </td>
                 </tr>
+                <!-- Spacer -->
                 <tr>
                     <td style="height: 10px;"></td>
                 </tr>
+                <!-- Buttons -->
                 <tr>
                     <td>
                         <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px; margin-right:10px;">Learn More</a>
                         <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px;">Pre-Order</a>
                     </td>
-                    <tr>
+                </tr>
+                <!-- Spacer After Buttons -->
+                <tr>
                     <td style="height: 10px;"></td>
                 </tr>
+                <!-- Social Media Icons -->
                 <tr>
                     <td>
                         <table cellpadding="0" cellspacing="0" border="0">
@@ -100,10 +116,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                         </table>
                     </td>
                 </tr>
-                <tr>
-                    <td style="height: 10px;"></td>
-                </tr>
-                </tr>
+                <!-- Spacer -->
                 <tr>
                     <td style="height: 20px;"></td>
                 </tr>
