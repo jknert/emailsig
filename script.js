@@ -22,7 +22,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
     you disagree with any of the above, please notify the sender within 24 hours from receipt. As you read this email and not notify the sender of your objection 
     will be an acceptance by you.`;
 
-    // Email signature HTML template with placeholders
+// Email signature HTML template with placeholders
 let template = `
 <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; color: #000000; width:600px;">
     <tr>
