@@ -50,7 +50,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         <tr>
             <td style="font-size: 9pt; color: #000000; padding-top: 10px; text-align: left;">
                 VenHub is a Fully Robotic, Autonomous, and AI-Powered Smart Store.<br>
-                Customer First | Innovate | Work Hard | Make History | Lead by Example
+                Driven by Customers, Fueled by Innovation and Making History Everyday
             </td>
         </tr>
         <!-- Buttons -->
