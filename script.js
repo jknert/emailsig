@@ -35,6 +35,9 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         <td style="width: 25px; border-top: 1px solid #2c7da5;"></td>
         <td valign="top" style="border-top: 1px solid #2c7da5;">
             <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+            <tr>
+                    <td style="height: 7px;"></td>
+                </tr>
                 <tr>
                     <td style="font-size: 12pt; color: #2c7da5; font-weight: bold;">${name}</td>
                 </tr>
@@ -59,6 +62,14 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                     </td>
                 </tr>
                 <tr>
+                    <td style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px; margin-right:10px;">Learn More</a>
+                        <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px;">Pre-Order</a>
+                    </td>
+                    <tr>
                     <td style="height: 10px;"></td>
                 </tr>
                 <tr>
@@ -92,11 +103,6 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                 <tr>
                     <td style="height: 10px;"></td>
                 </tr>
-                <tr>
-                    <td>
-                        <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px; margin-right:10px;">Learn More</a>
-                        <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px;">Pre-Order</a>
-                    </td>
                 </tr>
                 <tr>
                     <td style="height: 20px;"></td>
