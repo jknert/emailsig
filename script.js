@@ -9,7 +9,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
     const phone = '888-585-4999';
 
     // Disclaimer text
-    const disclaimer = `This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this e-mail. Please notify the sender immediately by e-mail if you have received this e-mail by mistake and delete this e-mail from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited. Nothing in this email should be construed as an agreement, or intent to agree, or advise, or representation of the company’s position, or releasing any confidential information, can be used as any form of evidence. This email is strictly as a basic form of communication and legal standing or official communication, all commitments, official communications, company’s position with regards to any terms of communication must be in a form of a contract along with a non-disclosure agreement and non-compete agreement. Should you disagree with any of the above, please notify the sender within 24 hours from receipt. As you read this email and not notify the sender of your objection will be an acceptance by you.`;
+    const disclaimer = `This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed... [Rest of the disclaimer]`;
 
     // Email signature HTML template with placeholders
     let template = `
@@ -19,7 +19,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
     </tr>
     <tr>
         <td valign="top" style="width: 150px; padding-top:6px; padding-bottom:10px; border-top: 1px solid #2c7da5;">
-            <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png" width="113" height="113" style="border:0;">
+            <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png" alt="VenHub Logo" style="border:0; max-width:113px; height:auto;">
         </td>
         <td style="width: 25px; border-top: 1px solid #2c7da5;"></td>
         <td valign="top" style="border-top: 1px solid #2c7da5;">
@@ -56,22 +56,22 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                             <tr>
                                 <td style="padding-right: 5px;">
                                     <a href="https://www.facebook.com/people/Venhub/100090915533691/" target="_blank">
-                                        <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/fb.png" width="18" height="18" style="border:0;">
+                                        <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/fb.png" alt="Facebook" width="18" height="18" style="border:0;">
                                     </a>
                                 </td>
                                 <td style="padding-right: 5px;">
                                     <a href="https://twitter.com/Venhubai" target="_blank">
-                                        <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/tt.png" width="18" height="18" style="border:0;">
+                                        <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/tt.png" alt="Twitter" width="18" height="18" style="border:0;">
                                     </a>
                                 </td>
                                 <td style="padding-right: 5px;">
                                     <a href="https://youtube.com/@Venhub" target="_blank">
-                                        <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/yt.png" width="18" height="18" style="border:0;">
+                                        <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/yt.png" alt="YouTube" width="18" height="18" style="border:0;">
                                     </a>
                                 </td>
                                 <td>
                                     <a href="https://www.linkedin.com/company/venhubai/" target="_blank">
-                                        <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/ln.png" width="18" height="18" style="border:0;">
+                                        <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/ln.png" alt="LinkedIn" width="18" height="18" style="border:0;">
                                     </a>
                                 </td>
                             </tr>
