@@ -58,6 +58,8 @@ document.getElementById('signature-form').addEventListener('submit', function (e
             <td style="padding-top: 19px; text-align: left;">
                 <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
                 <tr>
+                        
+                    <tr>
                         <td style="padding-right: 5px;">
                             <a href="https://www.venhub.com" target="_blank">
                                 <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Website+Icon.png" alt="Website" width="18" height="18" style="border:0;">
@@ -68,7 +70,6 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                                 <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Pre+order+Icon.png" alt="Pre-Order" width="18" height="18" style="border:0;">
                             </a>
                         </td>
-                    <tr>
                         <td style="padding-right: 5px;">
                             <a href="https://www.facebook.com/people/Venhub/100090915533691/" target="_blank">
                                 <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Facebook.png" alt="Facebook" width="18" height="18" style="border:0;">
@@ -103,8 +104,6 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                         </td>
                     </tr>
                 </table>
-                <br>
-                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Signature+image.png" alt="VenHub Store" width="450" height="200" style="border:0;">
             </td>
         </tr>
     </table>
