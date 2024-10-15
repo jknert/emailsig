@@ -44,7 +44,7 @@ let template = `
                 </tr>
                 <!-- Name -->
                 <tr>
-                    <td style="font-size: 12pt; color: #2c7da5; font-weight: bold;">${name}</td>
+                    <td style="font-size: 12pt; color: #2c7da5; font-weight: bold; line-height: 16pt;">${name}</td>
                 </tr>
                 <!-- Spacer Below Name -->
                 <tr>
@@ -52,7 +52,7 @@ let template = `
                 </tr>
                 <!-- Title -->
                 <tr>
-                    <td style="font-size: 9pt; color: #000000;">${title}</td>
+                    <td style="font-size: 9pt; color: #000000; line-height: 12pt;">${title}</td>
                 </tr>
                 <!-- Spacer -->
                 <tr>
@@ -60,7 +60,7 @@ let template = `
                 </tr>
                 <!-- Phone and Extension -->
                 <tr>
-                    <td style="font-size: 9pt; color: #000000;">${phone}${ext ? ' | Ext. ' + ext : ''}</td>
+                    <td style="font-size: 9pt; color: #000000; line-height: 12pt;">${phone}${ext ? ' | Ext. ' + ext : ''}</td>
                 </tr>
                 <!-- Spacer -->
                 <tr>
@@ -79,8 +79,8 @@ let template = `
                 <!-- Buttons -->
                 <tr>
                     <td>
-                        <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px; margin-right:10px;">Learn More</a>
-                        <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; border-radius:4px;">Pre-Order</a>
+                        <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; line-height: 9pt; border-radius:4px; margin-right:10px;">Learn More</a>
+                        <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:7pt; line-height: 9pt; border-radius:4px;">Pre-Order</a>
                     </td>
                 </tr>
                 <!-- Spacer After Buttons -->
