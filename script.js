@@ -30,7 +30,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         </tr>
         <!-- Name -->
         <tr>
-            <td style="font-size: 12pt; color: #2c7da5; font-weight: bold; text-align: left;">
+            <td style="font-size: 12pt; color: #34AB0F; font-weight: bold; text-align: left;">
                 ${name}
             </td>
         </tr>
@@ -56,8 +56,8 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         <!-- Buttons -->
         <tr>
             <td style="padding-top: 10px; text-align: left;">
-                <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:4px; margin-right:10px;">Learn More</a>
-                <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:4px;">Pre-Order</a>
+                <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#34AB0F; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:4px; margin-right:10px;">Learn More</a>
+                <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#34AB0F; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:4px;">Pre-Order</a>
             </td>
         </tr>
         <!-- Social Media Icons -->
@@ -67,22 +67,22 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                     <tr>
                         <td style="padding-right: 5px;">
                             <a href="https://www.facebook.com/people/Venhub/100090915533691/" target="_blank">
-                                <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/fb.png" alt="Facebook" width="18" height="18" style="border:0;">
+                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Facebook.png" alt="Facebook" width="18" height="18" style="border:0;">
                             </a>
                         </td>
                         <td style="padding-right: 5px;">
                             <a href="https://twitter.com/Venhubai" target="_blank">
-                                <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/tt.png" alt="Twitter" width="18" height="18" style="border:0;">
+                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/x.png" alt="Twitter" width="18" height="18" style="border:0;">
                             </a>
                         </td>
                         <td style="padding-right: 5px;">
                             <a href="https://youtube.com/@Venhub" target="_blank">
-                                <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/yt.png" alt="YouTube" width="18" height="18" style="border:0;">
+                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/YouTube.png" alt="YouTube" width="18" height="18" style="border:0;">
                             </a>
                         </td>
                         <td>
                             <a href="https://www.linkedin.com/company/venhubai/" target="_blank">
-                                <img src="https://www.mail-signatures.com/signature-generator/img/templates/wind-in-your-sails/ln.png" alt="LinkedIn" width="18" height="18" style="border:0;">
+                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/linkedin.png" alt="LinkedIn" width="18" height="18" style="border:0;">
                             </a>
                         </td>
                     </tr>
