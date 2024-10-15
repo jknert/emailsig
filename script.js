@@ -18,14 +18,6 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         <tr>
             <td style="padding-top: 60px;"></td>
         </tr>
-        <!-- Blue line -->
-        <tr>
-            <td style="border-top: 1px solid #2c7da5;"></td>
-        </tr>
-        <!-- Spacer below the line -->
-        <tr>
-            <td style="padding-top: 6px;"></td>
-        </tr>
         <!-- Logo -->
         <tr>
             <td style="text-align: left;">
