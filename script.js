@@ -16,7 +16,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
     <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; width:600px;">
         <!-- Spacer above the signature -->
         <tr>
-            <td style="padding-top: 20px;"></td>
+            <td style="padding-top: 60px;"></td>
         </tr>
         <!-- Logo -->
         <tr>
@@ -53,16 +53,9 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                 Driven by Customers, Fueled by Innovation and Making History Everyday
             </td>
         </tr>
-        <!-- Buttons -->
-        <tr>
-            <td style="padding-top: 10px; text-align: left;">
-                <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#34AB0F; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:4px; margin-right:10px;">Learn More</a>
-                <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#34AB0F; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:4px;">Pre-Order</a>
-            </td>
-        </tr>
         <!-- Social Media Icons -->
         <tr>
-            <td style="padding-top: 10px; text-align: left;">
+            <td style="padding-top: 19px; text-align: left;">
                 <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
                     <tr>
                         <td style="padding-right: 5px;">
