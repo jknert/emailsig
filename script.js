@@ -99,6 +99,8 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                         </td>
                     </tr>
                 </table>
+                <br>
+                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Signature+image.png" alt="VenHub Store" width="450" height="200" style="border:0;">
             </td>
         </tr>
     </table>
