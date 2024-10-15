@@ -57,6 +57,17 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         <tr>
             <td style="padding-top: 19px; text-align: left;">
                 <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
+                <tr>
+                        <td style="padding-right: 5px;">
+                            <a href="https://www.venhub.com" target="_blank">
+                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Website+Icon.png" alt="Website" width="18" height="18" style="border:0;">
+                            </a>
+                        </td>
+                        <td style="padding-right: 5px;">
+                            <a href="https://www.venhub.com/pre-order-main" target="_blank">
+                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Pre+order+Icon.png" alt="Pre-Order" width="18" height="18" style="border:0;">
+                            </a>
+                        </td>
                     <tr>
                         <td style="padding-right: 5px;">
                             <a href="https://www.facebook.com/people/Venhub/100090915533691/" target="_blank">
