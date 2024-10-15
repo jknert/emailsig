@@ -13,14 +13,10 @@ document.getElementById('signature-form').addEventListener('submit', function (e
 
     // Email signature HTML template with placeholders
     let template = `
-    <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; width:100%;">
-        <!-- Spacer above the line -->
+    <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; width:600px;">
+        <!-- Spacer above the signature -->
         <tr>
-            <td style="padding-top: 60px;"></td>
-        </tr>
-        <!-- Spacer below the line -->
-        <tr>
-            <td style="padding-top: 6px;"></td>
+            <td style="padding-top: 20px;"></td>
         </tr>
         <!-- Logo -->
         <tr>
@@ -34,25 +30,25 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         </tr>
         <!-- Name -->
         <tr>
-            <td style="font-size: 12pt; font-weight: bold; text-align: left;">
+            <td style="font-size: 12pt; color: #2c7da5; font-weight: bold; text-align: left;">
                 ${name}
             </td>
         </tr>
         <!-- Title -->
         <tr>
-            <td style="font-size: 9pt; text-align: left;">
+            <td style="font-size: 9pt; color: #000000; text-align: left;">
                 ${title}
             </td>
         </tr>
         <!-- Phone -->
         <tr>
-            <td style="font-size: 9pt; padding-top: 5px; text-align: left;">
+            <td style="font-size: 9pt; color: #000000; padding-top: 5px; text-align: left;">
                 ${phone}${ext ? ' | Ext. ' + ext : ''}
             </td>
         </tr>
         <!-- Tagline -->
         <tr>
-            <td style="font-size: 9pt; padding-top: 10px; text-align: left;">
+            <td style="font-size: 9pt; color: #000000; padding-top: 10px; text-align: left;">
                 VenHub is a Fully Robotic, Autonomous, and AI-Powered Smart Store.<br>
                 Customer First | Innovate | Work Hard | Make History | Lead by Example
             </td>
@@ -95,8 +91,14 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         </tr>
         <!-- Disclaimer -->
         <tr>
-            <td style="font-size: 6pt; padding-top: 20px; text-align: justify;">
-                ${disclaimer}
+            <td style="padding-top: 20px;">
+                <table cellpadding="0" cellspacing="0" border="0" style="width:300px;">
+                    <tr>
+                        <td style="font-size: 6pt; color: #888888; text-align: justify;">
+                            ${disclaimer}
+                        </td>
+                    </tr>
+                </table>
             </td>
         </tr>
     </table>
