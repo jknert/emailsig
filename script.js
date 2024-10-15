@@ -26,29 +26,29 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         </tr>
         <!-- Spacer below the logo -->
         <tr>
-            <td style="padding-top: 6px;"></td>
+            <td style="padding-top: 17px;"></td>
         </tr>
         <!-- Name -->
         <tr>
-            <td style="font-size: 12pt; color: #34AB0F; font-weight: bold; text-align: left;">
+            <td style="font-size: 12pt; color: #7A7A7A; font-weight: bold; text-align: left;">
                 ${name}
             </td>
         </tr>
         <!-- Title -->
         <tr>
-            <td style="font-size: 9pt; color: #000000; text-align: left;">
+            <td style="font-size: 9pt; color: #7A7A7A; text-align: left;">
                 ${title}
             </td>
         </tr>
         <!-- Phone -->
         <tr>
-            <td style="font-size: 9pt; color: #000000; padding-top: 5px; text-align: left;">
+            <td style="font-size: 9pt; color: #7A7A7A; padding-top: 9px; text-align: left;">
                 ${phone}${ext ? ' | Ext. ' + ext : ''}
             </td>
         </tr>
         <!-- Tagline -->
         <tr>
-            <td style="font-size: 9pt; color: #000000; padding-top: 10px; text-align: left;">
+            <td style="font-size: 9pt; color: #7A7A7A; padding-top: 10px; text-align: left;">
                 VenHub is a Fully Robotic, Autonomous, and AI-Powered Smart Store.<br>
                 Driven by Customers, Fueled by Innovation and Making History Everyday
             </td>
@@ -94,7 +94,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
             <td style="padding-top: 20px;">
                 <table cellpadding="0" cellspacing="0" border="0" style="width:450px;">
                     <tr>
-                        <td style="font-size: 6pt; color: #888888; text-align: justify;">
+                        <td style="font-size: 6pt; color: #C4C4C4; text-align: justify;">
                             ${disclaimer}
                         </td>
                     </tr>
