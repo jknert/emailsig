@@ -13,10 +13,14 @@ document.getElementById('signature-form').addEventListener('submit', function (e
 
     // Email signature HTML template with placeholders
     let template = `
-    <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; color: #000000; width:100%;">
+    <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; width:100%;">
         <!-- Spacer above the line -->
         <tr>
             <td style="padding-top: 60px;"></td>
+        </tr>
+        <!-- Spacer below the line -->
+        <tr>
+            <td style="padding-top: 6px;"></td>
         </tr>
         <!-- Logo -->
         <tr>
@@ -24,27 +28,31 @@ document.getElementById('signature-form').addEventListener('submit', function (e
                 <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png" alt="VenHub Logo" style="border:0; max-width:113px; height:auto;">
             </td>
         </tr>
+        <!-- Spacer below the logo -->
+        <tr>
+            <td style="padding-top: 6px;"></td>
+        </tr>
         <!-- Name -->
         <tr>
-            <td style="font-size: 12pt; color: #2c7da5; font-weight: bold; text-align: left; padding-top: 6px;">
+            <td style="font-size: 12pt; font-weight: bold; text-align: left;">
                 ${name}
             </td>
         </tr>
         <!-- Title -->
         <tr>
-            <td style="font-size: 9pt; color: #000000; text-align: left;">
+            <td style="font-size: 9pt; text-align: left;">
                 ${title}
             </td>
         </tr>
         <!-- Phone -->
         <tr>
-            <td style="font-size: 9pt; color: #000000; padding-top: 5px; text-align: left;">
+            <td style="font-size: 9pt; padding-top: 5px; text-align: left;">
                 ${phone}${ext ? ' | Ext. ' + ext : ''}
             </td>
         </tr>
         <!-- Tagline -->
         <tr>
-            <td style="font-size: 9pt; color: #000000; padding-top: 10px; text-align: left;">
+            <td style="font-size: 9pt; padding-top: 10px; text-align: left;">
                 VenHub is a Fully Robotic, Autonomous, and AI-Powered Smart Store.<br>
                 Customer First | Innovate | Work Hard | Make History | Lead by Example
             </td>
@@ -87,7 +95,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         </tr>
         <!-- Disclaimer -->
         <tr>
-            <td style="font-size: 6pt; color: #888888; padding-top: 20px; text-align: justify;">
+            <td style="font-size: 6pt; padding-top: 20px; text-align: justify;">
                 ${disclaimer}
             </td>
         </tr>
