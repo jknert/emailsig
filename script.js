@@ -92,7 +92,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         <!-- Disclaimer -->
         <tr>
             <td style="padding-top: 20px;">
-                <table cellpadding="0" cellspacing="0" border="0" style="width:300px;">
+                <table cellpadding="0" cellspacing="0" border="0" style="width:450px;">
                     <tr>
                         <td style="font-size: 6pt; color: #888888; text-align: justify;">
                             ${disclaimer}
