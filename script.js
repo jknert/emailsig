@@ -14,48 +14,60 @@ document.getElementById('signature-form').addEventListener('submit', function (e
     // Email signature HTML template with placeholders
     let template = `
     <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; color: #000000; width:100%;">
+        <!-- Spacer above the line -->
+        <tr>
+            <td style="padding-top: 60px;"></td>
+        </tr>
+        <!-- Blue line -->
+        <tr>
+            <td style="border-top: 1px solid #2c7da5;"></td>
+        </tr>
+        <!-- Spacer below the line -->
+        <tr>
+            <td style="padding-top: 6px;"></td>
+        </tr>
         <!-- Logo -->
         <tr>
-            <td style="text-align: left; padding-bottom: 10px;">
+            <td style="text-align: left;">
                 <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png" alt="VenHub Logo" style="border:0; max-width:113px; height:auto;">
             </td>
         </tr>
         <!-- Name -->
         <tr>
-            <td style="text-align: left; font-size: 12pt; color: #2c7da5; font-weight: bold;">
+            <td style="font-size: 12pt; color: #2c7da5; font-weight: bold; text-align: left; padding-top: 6px;">
                 ${name}
             </td>
         </tr>
         <!-- Title -->
         <tr>
-            <td style="text-align: left; font-size: 9pt; color: #000000;">
+            <td style="font-size: 9pt; color: #000000; text-align: left;">
                 ${title}
             </td>
         </tr>
-        <!-- Phone and Extension -->
+        <!-- Phone -->
         <tr>
-            <td style="text-align: left; font-size: 9pt; color: #000000; padding-top: 5px;">
+            <td style="font-size: 9pt; color: #000000; padding-top: 5px; text-align: left;">
                 ${phone}${ext ? ' | Ext. ' + ext : ''}
             </td>
         </tr>
         <!-- Tagline -->
         <tr>
-            <td style="text-align: left; font-size: 9pt; color: #000000; padding-top: 10px;">
+            <td style="font-size: 9pt; color: #000000; padding-top: 10px; text-align: left;">
                 VenHub is a Fully Robotic, Autonomous, and AI-Powered Smart Store.<br>
                 Customer First | Innovate | Work Hard | Make History | Lead by Example
             </td>
         </tr>
         <!-- Buttons -->
         <tr>
-            <td style="text-align: left; padding-top: 10px;">
+            <td style="padding-top: 10px; text-align: left;">
                 <a href="http://www.venhub.com" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:4px; margin-right:10px;">Learn More</a>
                 <a href="https://www.venhub.com/pre-order-main" style="display:inline-block; padding:7px 15px; background-color:#2c7da5; color:#ffffff; text-decoration:none; font-size:9pt; border-radius:4px;">Pre-Order</a>
             </td>
         </tr>
         <!-- Social Media Icons -->
         <tr>
-            <td style="text-align: left; padding-top: 10px;">
-                <table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+            <td style="padding-top: 10px; text-align: left;">
+                <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
                     <tr>
                         <td style="padding-right: 5px;">
                             <a href="https://www.facebook.com/people/Venhub/100090915533691/" target="_blank">
@@ -103,4 +115,34 @@ document.getElementById('signature-form').addEventListener('submit', function (e
     // Show the Copy buttons
     document.getElementById('copy-signature-button').style.display = 'block';
     document.getElementById('copy-html-button').style.display = 'block';
+});
+
+// Copy Signature Button Functionality
+document.getElementById('copy-signature-button').addEventListener('click', async function () {
+    const signatureOutput = document.getElementById('signature-output');
+
+    try {
+        await navigator.clipboard.write([
+            new ClipboardItem({
+                'text/html': new Blob([signatureOutput.innerHTML], { type: 'text/html' }),
+                'text/plain': new Blob([signatureOutput.innerText], { type: 'text/plain' })
+            })
+        ]);
+        alert('Signature copied to clipboard!');
+    } catch (err) {
+        console.error('Failed to copy: ', err);
+        alert('Unable to copy. Please manually copy the signature.');
+    }
+});
+
+// Copy HTML Code Button Functionality
+document.getElementById('copy-html-button').addEventListener('click', async function () {
+    const signatureHtml = document.getElementById('signature-html');
+    try {
+        await navigator.clipboard.writeText(signatureHtml.value);
+        alert('HTML code copied to clipboard!');
+    } catch (err) {
+        console.error('Failed to copy: ', err);
+        alert('Unable to copy. Please manually copy the HTML code.');
+    }
 });
