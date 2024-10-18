@@ -21,7 +21,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         <!-- Logo -->
         <tr>
             <td style="text-align: left;">
-                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png" alt="VenHub Logo" style="border:0; max-width:113px; height:27px;">
+                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png" alt="VenHub Logo" style="border:0; max-width:113px; max-height:27px;">
             </td>
         </tr>
         <!-- Spacer below the logo -->
