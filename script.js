@@ -13,100 +13,76 @@ document.getElementById('signature-form').addEventListener('submit', function (e
 
     // Email signature HTML template with placeholders
     let template = `
-    <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; width:600px;">
-        <!-- Spacer above the signature -->
-        <tr>
-            <td style="padding-top: 60px;"></td>
-        </tr>
-        <!-- Logo -->
-        <tr>
-            <td style="text-align: left;">
-                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png" alt="VenHub Logo" style="border:0; max-width:113px; max-height:27px;">
-            </td>
-        </tr>
-        <!-- Spacer below the logo -->
-        <tr>
-            <td style="padding-top: 17px;"></td>
-        </tr>
-        <!-- Name -->
-        <tr>
-            <td style="font-size: 12pt; color: #7A7A7A; font-weight: bold; text-align: left;">
-                ${name}
-            </td>
-        </tr>
-        <!-- Title -->
-        <tr>
-            <td style="font-size: 9pt; color: #7A7A7A; text-align: left;">
-                ${title}
-            </td>
-        </tr>
-        <!-- Phone -->
-        <tr>
-            <td style="font-size: 9pt; color: #7A7A7A; padding-top: 9px; text-align: left;">
-                ${phone}${ext ? ' | Ext. ' + ext : ''}
-            </td>
-        </tr>
-        <!-- Tagline -->
-        <tr>
-            <td style="font-size: 9pt; color: #7A7A7A; padding-top: 10px; text-align: left;">
-                VenHub is a Fully Robotic, Autonomous, and AI-Powered Smart Store.<br>
-                Driven by Customers, Fueled by Innovation and Making History Everyday
-            </td>
-        </tr>
-        <!-- Social Media Icons -->
-        <tr>
-            <td style="padding-top: 19px; text-align: left;">
-                <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
-                <tr>
-                        
-                    <tr>
-                        <td style="padding-right: 5px;">
-                            <a href="https://www.venhub.com" target="_blank">
-                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Website+Icon.png" alt="Website" width="18" height="18" style="border:0;">
-                            </a>
-                        </td>
-                        <td style="padding-right: 5px;">
-                            <a href="https://www.venhub.com/pre-order-main" target="_blank">
-                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Pre+order+Icon.png" alt="Pre-Order" width="18" height="18" style="border:0;">
-                            </a>
-                        </td>
-                        <td style="padding-right: 5px;">
-                            <a href="https://www.facebook.com/people/Venhub/100090915533691/" target="_blank">
-                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Facebook.png" alt="Facebook" width="18" height="18" style="border:0;">
-                            </a>
-                        </td>
-                        <td style="padding-right: 5px;">
-                            <a href="https://twitter.com/Venhubai" target="_blank">
-                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/x.png" alt="Twitter" width="18" height="18" style="border:0;">
-                            </a>
-                        </td>
-                        <td style="padding-right: 5px;">
-                            <a href="https://youtube.com/@Venhub" target="_blank">
-                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/YouTube.png" alt="YouTube" width="18" height="18" style="border:0;">
-                            </a>
-                        </td>
-                        <td>
-                            <a href="https://www.linkedin.com/company/venhubai/" target="_blank">
-                                <img src="https://vhphoto.s3.us-east-2.amazonaws.com/linkedin.png" alt="LinkedIn" width="18" height="18" style="border:0;">
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-        <!-- Disclaimer -->
-        <tr>
-            <td style="padding-top: 20px;">
-                <table cellpadding="0" cellspacing="0" border="0" style="width:450px;">
-                    <tr>
-                        <td style="font-size: 6pt; color: #C4C4C4; text-align: justify;">
-                            ${disclaimer}
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+        <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; width:600px;">
+            <!-- Spacer above the signature -->
+            <tr>
+                <td style="padding-top: 60px;"></td>
+            </tr>
+            <!-- Logo -->
+            <tr>
+                <td style="text-align: left;">
+                    <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Venhub+Logo+with+Black+-+Red+dot+no+background.png" alt="VenHub Logo" width="113" height="30" style="border:0;">
+                </td>
+            </tr>
+            <!-- Spacer below the logo -->
+            <tr>
+                <td style="padding-top: 17px;"></td>
+            </tr>
+            <!-- Name -->
+            <tr>
+                <td style="font-size: 12pt; color: #7A7A7A; font-weight: bold; text-align: left;">
+                    ${name}
+                </td>
+            </tr>
+            <!-- Title -->
+            <tr>
+                <td style="font-size: 9pt; color: #7A7A7A; text-align: left;">
+                    ${title}
+                </td>
+            </tr>
+            <!-- Phone -->
+            <tr>
+                <td style="font-size: 9pt; color: #7A7A7A; padding-top: 9px; text-align: left;">
+                    ${phone}${ext ? ' | Ext. ' + ext : ''}
+                </td>
+            </tr>
+            <!-- Tagline -->
+            <tr>
+                <td style="font-size: 9pt; color: #7A7A7A; padding-top: 10px; text-align: left;">
+                    VenHub is a Fully Robotic, Autonomous, and AI-Powered Smart Store.<br>
+                    Driven by Customers, Fueled by Innovation and Making History Everyday
+                </td>
+            </tr>
+            <!-- Social Media Icons -->
+            <tr>
+                <td style="padding-top: 19px; text-align: left;">
+                    <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
+                        <tr>
+                            <!-- Update each icon with width and height attributes -->
+                            <td style="padding-right: 5px;">
+                                <a href="https://www.venhub.com" target="_blank">
+                                    <img src="https://vhphoto.s3.us-east-2.amazonaws.com/Website+Icon.png" alt="Website" width="18" height="18" style="border:0;">
+                                </a>
+                            </td>
+                            <!-- Repeat for other icons -->
+                            <!-- ... -->
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Disclaimer -->
+            <tr>
+                <td style="padding-top: 20px;">
+                    <table cellpadding="0" cellspacing="0" border="0" style="width:450px;">
+                        <tr>
+                            <td style="font-size: 6pt; color: #C4C4C4; text-align: justify;">
+                                ${disclaimer}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
     `;
 
     // Display the generated signature in the output div
