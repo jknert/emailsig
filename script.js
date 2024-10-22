@@ -16,7 +16,7 @@ document.getElementById('signature-form').addEventListener('submit', function (e
         <table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; width:600px;">
             <!-- Spacer above the signature -->
             <tr>
-                <td style="padding-top: 60px;"></td>
+                <td style="padding-top: 30px;"></td>
             </tr>
             <!-- Logo -->
             <tr>
